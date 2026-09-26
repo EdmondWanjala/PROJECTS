@@ -1,0 +1,55 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+*.log
+*.swp
+*.swo
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.*
+secrets.*
+
+# Build artifacts
+build/
+dist/
+out/
+bin/
+obj/
+target/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Generated data
+*.cache
+*.sqlite
+*.db
+
+# Large archives
+*.zip
+*.7z
+*.rar
+
+# Local experiment output
+runs/
+checkpoints/
+wandb/
+mlruns/
