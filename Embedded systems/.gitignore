@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+out/
+bin/
+obj/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Generated firmware
+*.hex
+*.bin
+*.elf
+*.map
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.secret

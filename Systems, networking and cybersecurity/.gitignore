@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Captures and generated data
+*.pcap
+*.pcapng
+captures/
+logs/
+
+# Credentials
+.env
+.env.*
+*.key
+*.pem
+*.secret
